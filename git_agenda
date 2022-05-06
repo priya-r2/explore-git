@@ -11,6 +11,18 @@ Why source control?
 4) Merging
 5) Resolving conflicts
 
-test
+Global config:
+git config --global user.name "Name"
+git config --global user.email "Email"
+git config --global -l
 
-test1
+
+Git basic commands:
+git clone(with SSH and https)
+windows ssh - puttygen
+mac ssh - ssh-keygen
+git status
+git add (staging area)
+git commit -m
+git push -u origin master
+git pull origin master
