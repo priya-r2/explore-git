@@ -1,0 +1,68 @@
+1) Git installation and configuration
+
+email:
+priya.shanthram@r2-factory.com
+username:
+priya-r2
+
+Signup for github:
+windows: Download
+Mac: Type git version and download
+
+Global config:
+git config --global user.name "Name"
+git config --global user.email "Email"
+git config --global -l
+
+
+Git basic commands:
+git clone(with SSH and https)
+windows ssh - puttygen
+mac ssh - ssh-keygen
+git status
+git add (staging area)
+git commit -m
+git push -u origin master
+git pull origin master
+git log
+git log --abbrev-commit
+
+Creating Branch:
+git branch
+git branch -a
+git branch "<branch name>"
+git checkout -b "<branchname>"
+git branch -d "<branchname>"
+git diff <branch1> <branch2>
+
+
+Merging:
+Fast Forward merge
+raising pull request using github
+
+
+Advanced:
+Git workflow: Working directory --> Staging area --> local git repo --> remote gitrepo
+Tracked files
+git ls-files(tracked files)
+Unstaged changes ex: git restore --staged <file>
+discard changes in the file: git restore <file>
+git log --oneline --graph --decorate
+git log -- <specific file>
+git log --follow -- <specific file>
+git comparison
+git stash
+git stash list
+git stash pop
+git rebase
+git rebase --abort
+
+m1 --- m2 --- m3
+       |
+       F1 --- F2
+
+Best practices:
+after commit git pull before push
+Try not to use rebase
+
+test
